@@ -44,15 +44,15 @@ class CartItemController extends Controller
      */
     public function store(Request $request)
     {
-        CartItem::updateOrCreate(
+      CartItem::updateOrCreate(
           [
-            'user_id' => Auth::id(),
-            'item_id' => $request->post('item_id'),
+              'user_id' => Auth::id(),
+              'item_id' => $request->post('item_id'),
           ],
           [
-            'quantity' => \DB::raw('quantity + ' . $request->post('quantity') ),
+              'quantity' => \DB::raw('quantity + ' . $request->post('quantity') ),
           ]
-        );
+      );
         return redirect('/')->with('flash_message','カートに追加しました');
     }
 
