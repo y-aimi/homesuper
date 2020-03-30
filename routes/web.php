@@ -19,9 +19,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/item/{item}','ItemController@show');
 
-Route::post('/cartitem','CartItemController@store');
-
 Route::get('/cartitem','CartItemController@index');
+Route::post('/cartitem','CartItemController@store');
 
 Route::delete('/cartitem/{cartItem}', 'CartItemController@destroy');
 Route::put('/cartitem/{cartItem}', 'CartItemController@update');
