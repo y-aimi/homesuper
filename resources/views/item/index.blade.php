@@ -55,7 +55,7 @@
           </div>
 
           @auth
-          <div class="cartbutton" style="">
+          <div class="cartbutton">
               <form method="POST" action="cartitem" class="form-inline m-1">
                   {{ csrf_field() }}
                   <select name="quantity" class="form-control col-md-2 mr-1">
