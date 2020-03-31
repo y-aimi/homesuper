@@ -9,7 +9,57 @@
 
 <!-- メインここから -->
 
-<!-- 右側ここから -->
+
+<!-- navbarここから -->
+<div class="col-12 col-md-12 mx-auto" style="background-color:#CC3569; margin-top:-25px;">
+  <div style="list-style:none; color:white;">
+
+    <nav class="navbar navbar-expand-md">
+      <button class="navbar-brand" href="#" w-100 data-toggle="collapse" data-target="#menu1" style="background-color:#CC3569; border:none">
+          <span class="menubar height:300px;" style="color:white; margin-left:80px">商品カテゴリ一覧</span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu1">
+        <form method="GET" action="/">
+          <ul class="nav navbar-nav">
+            <li>
+              <br>
+            </li>
+            <li style="list-style:none; margin-left:20px">
+              <img src="/image/冷凍食品.png" style="width:23px; height:23px; object-fit:cover; margin-right:-2px; margin-top:-3px">
+              <input type="submit" name="keyword" style="font-size:15px; display:inline; color:white; border:none; outline:none; background-color:#CC3569" value="冷凍食品">
+            </li>
+            <li>
+              <br>
+            </li>
+            <li style="list-style:none; margin-left:20px">
+              <img src='/image/缶詰.png' style='width:23px; height:23px; object-fit:cover; margin-right:-2px; margin-top:-3px'>
+              <input type="submit" name="keyword" style="font-size:15px; display:inline; color:white; border:none; outline:none; background-color:#CC3569" value="缶詰">
+            </li>
+            <li>
+              <br>
+            </li>
+            <li style="list-style:none; margin-left:20px">
+              <img src="/image/ノンアルコール.png" style="width:20px; height:20px; object-fit:cover; margin-right:-9px; margin-top:-5px">
+              <input type="submit" name="keyword" style="font-size:15px; display:inline; color:white; border:none; outline:none; background-color:#CC3569" value="ソフトドリンク">
+            </li>
+            <li>
+              <br>
+            </li>
+            <li style="list-style:none; margin-left:20px">
+              <img src="/image/お酒.png" style="width:20px; height:20px; object-fit:cover; margin-right:-5px; margin-top:-5px">
+              <input type="submit" name="keyword" style="font-size:15px; display:inline; color:white; border:none; outline:none; background-color:#CC3569" value="お酒">
+            </li>
+          </ul>
+        </form>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <br>
+<!-- navbarここまで -->
+
+
+<!-- 商品一覧ここから -->
 <div class="col-12 col-md-12">
 
   <div class="container" style="">
@@ -53,42 +103,20 @@
   </div>
 </div>
 </div>
-<!-- 右側ここまで -->
+<!-- 商品一覧ここまで -->
 
-<hr style="height:1px; background-color:#58C172 ">
+<!-- footerここから -->
+<div class="col-12 col-md-12 mx-auto" style="background-color:#CC3569; color:white; margin-bottom:-24px">
 <br>
-
-<!-- 左側ここから -->
-<div class="col-12 col-md-8 mx-auto" style="">
-<div class="sidebar" style="background-color:#CC3569;">
-  <div style="list-style:none; color:white; margin-left:20px">
-    <br>
-    <form method="GET" action="/">
-    <h5>オススメ商品</h5>
-    <hr size="5"; color="white">
-    <br>
-
-    <img src="/image/冷凍食品.png" style="width:25px; height:25px; object-fit:cover;">
-    <input type="submit" name="keyword" style="font-size:15px; display:inline; color:white; border:none; outline:none; background-color:#CC3569" value="冷凍食品"><br><br>
-    <img src='/image/缶詰.png' style='width:25px; height:25px; object-fit:cover;'>
-    <input type="submit" name="keyword" style="font-size:15px; display:inline; color:white; border:none; outline:none; background-color:#CC3569" value="缶詰"><br><br>
-    <img src="/image/ノンアルコール.png" style="width:25px; height:25px; object-fit:cover;">
-    <input type="submit" name="keyword" style="font-size:13px; display:inline; color:white; border:none; outline:none; background-color:#CC3569" value="ソフトドリンク"><br><br>
-    <img src="/image/お酒.png" style="width:25px; height:25px; object-fit:cover;">
-    <input type="submit" name="keyword" style="font-size:15px; display:inline; color:white; border:none; outline:none; background-color:#CC3569" value="お酒"><br><br>
-
-    </form>
-    <hr size="5"; color="white">
-    <h6>homesuperとは</h6>
-    <br>
-    <h6>会社案内</h6>
-    <br>
-    <h6>お問い合わせ</h6>
-    <br>
-  </div>
+<div style="font-size:20px">当サイトについて</div>
+<br>
+<div style="margin-left:20px">homesuperとは</div>
+<br>
+<div style="margin-left:20px">会社案内</div>
+<br>
+<div style="margin-left:20px">お問い合わせ</div>
+<br>
 </div>
-</div>
-<!-- 左側ここまで -->
 
-
+<!-- footerここまで -->
 @endsection
