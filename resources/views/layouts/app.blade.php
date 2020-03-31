@@ -23,7 +23,7 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-dark bg-success shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}" style="margin-left:-30px">
+                <a class="navbar-brand" href="{{ url('/') }}">
                     <h1>{{ config('app.name', 'Laravel') }}</h1>
                 </a>
                 <form method="GET" action="/">
