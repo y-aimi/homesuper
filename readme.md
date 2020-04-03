@@ -1,6 +1,8 @@
 # homesuper
 LaravelとDokerを使用した業務スーパーECサイト
 
+URL:http://homesuper.herokuapp.com/
+
 由来：家(home)で使える業務スーパー(super)アプリ→home + super
 
 # TOP
